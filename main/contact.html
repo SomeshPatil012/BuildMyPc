@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildMyPC: Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+   <header>
+        <div class="container">
+              <div class="logo"><ab>BuildMyPC</ab></div>
+         <img src="logo.jpg" alt="Logo" class="img-logo" />
+             <nav>
+                 <ul>
+                     <li><a href="/Html/Mini Project/main/Home.html" class="active">Home</a></li>
+                     <li><a href="/Html/Mini Project/main/pcbulider.html">PC Builder</a></li>
+                     <li class="dropdown">
+                         <a href="/Html/Mini Project/main/pre-bulid.html">Pre-Bulid</a>
+                         <div class="dropdown-content">
+                             <a href="/Html/Mini Project/Pre-Build/gamingpc.html">Gaming PC</a>
+                             <a href="/Html/Mini Project/Pre-Build/professionalpc.html">Professional PC</a>
+                             <a href="/Html/Mini Project/Pre-Build/casualpc.html">Casual Work PC</a>
+                             <a href="/Html/Mini Project/Pre-Build/serverpc.html">Server PC</a>
+                             <a href="/Html/Mini Project/Pre-Build/minipc.html">Mini PC</a>
+                             <a href="/Html/Mini Project/Pre-Build/creatorpc.html">Creator PC</a>
+                             <a href="/Html/Mini Project/Pre-Build/multipurposepc.html">Multipurpose PC</a>
+                         </div>
+                     </li>
+                     <li class="dropdown">
+                         <a href="/Html/Mini Project/main/component.html">Components</a>
+                         <div class="dropdown-content">
+                              <a href="/Html/Mini Project/components/processors.html">Processors</a>
+                             <a href="/Html/Mini Project/components/graphics.html">Graphics Cards</a>
+                             <a href="/Html/Mini Project/components/Motherboard.html">Motherboards</a>
+                             <a href="/Html/Mini Project/components/Ram.html">RAM</a>
+                             <a href="/Html/Mini Project/components/Ssd.html">Ssd</a>
+                             <a href="/Html/Mini Project/components/Hdd.html">HDD</a>
+                             <a href="/Html/Mini Project/components/Hybriddriver.html">Hybrid Drives</a>
+                             <a href="/Html/Mini Project/components/Aircooler.html">Air Cooler</a>
+                             <a href="/Html/Mini Project/components/Liquidcooler.html">Liquid Cooler</a>
+                             <a href="/Html/Mini Project/components/computercase.html">Computer cases</a>
+                             <a href="/Html/Mini Project/components/soundcard.html">Sound Cards</a>
+                             <a href="/Html/Mini Project/components/usbexpansion.html">USB Expansions</a>
+                             <a href="/Html/Mini Project/components/thunderbolt.html">ThunderBolt Cards</a>
+                             <a href="/Html/Mini Project/components/rgblight.html">RGB light strips and controllers</a>
+                             <a href="/Html/Mini Project/components/opticaldriver.html">Optical Drives</a>
+                             <a href="/Html/Mini Project/components/powercable.html">Power Cables</a>
+                         </div>
+                     </li>
+ 
+                     <li class="dropdown">
+                         <a href="/Html/Mini Project/main/Accessories.html">Accessories</a>
+                             <div class="dropdown-content">
+                                 <a href="/Html/Mini Project/Accessories/keyboard.html">Keyboard</a>
+                                 <a href="/Html/Mini Project/Accessories/mouse.html">Mouse</a>
+                                 <a href="/Html/Mini Project/Accessories/monitor.html">Monitor</a>
+                                 <a href="/Html/Mini Project/Accessories/headphones.html">Headphones</a>
+                                 <a href="/Html/Mini Project/Accessories/webcame.html">Webcame</a>
+                                 <a href="/Html/Mini Project/Accessories/drives.html">Drives</a>
+                                 <a href="/Html/Mini Project/Accessories/wifi-adapter.html">wifi-Adapter</a>
+                             </div>
+                         </li>
+                     <li><a href="/Html/Mini Project/main/about.html">About</a></li>
+                     <li><a href="/Html/Mini Project/main/contact.html">Contact</a></li>
+                     <li id="loginBtn"><a href="/Html/Mini Project/main/login.html" onclick="toggleLoginForm()">Login</a></li>
+                 </ul>
+             </nav>
+         </div>
+     </header>
+
+<main id="contact-main" class="contact-main-section">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We're here to help! Send us a message and we'll get back to you as soon as possible.</p>
+        
+        <div class="contact-wrapper">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="123-456-7890">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h3>Visit Us:</h3>
+                <div class="map">
+                    <a href="https://www.google.com/maps/dir/19.8709868,75.3295456/Gate+No+5,+Maharashtra+Institute+Of+Technology,+Beed+Bypass+Rd,+Satara+Parisar,+Aurangabad,+Maharashtra+431010/@19.860431,75.3177741,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bdb988c254eb873:0x4388791935b718e6!2m2!1d75.3218713!2d19.8492987?entry=ttu" target="_blank"><img src="map.png" alt="Map Location of BuildMyPC"></a>
+                </div>
+
+                <h3>Contact Details:</h3>
+                <p><strong>Phone:</strong> 123-456-7890</p>
+                <p><strong>Address:</strong> Gate No 5, Beed Bypass Rd, Satara Parisar, Aurangabad, Maharashtra 43101</p>
+                <p><strong>Email:</strong> support@buildmypc.com</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 BuildMyPC. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

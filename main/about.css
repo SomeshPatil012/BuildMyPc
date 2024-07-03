@@ -1,0 +1,184 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+li{
+    font-size:large;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #61dafb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px 0;
+    background-color: #1d1d1d;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 19px;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav li a:hover {
+    background-color: #61dafb;
+    color: #20232a;
+}
+
+.about-section,.team-member{
+    background-color: #ffffff;
+    padding: 60px 0;
+    margin: 20px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.about-section h1,.team-member h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #61dafb;
+}
+
+.about-section h2,.team-member h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #61dafb;
+}
+
+.about-section h3,.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color:black;
+    background-color: #61dafb;
+}
+
+.about-section p,.team-member p {
+    margin-bottom: 20px;
+    color: #5e6e77;
+}
+
+.about-section ul,.team-member ul {
+    margin-bottom: 30px;
+    color: #5e6e77;
+}
+
+.about-section ul li,.team-member ul li {
+    margin-bottom: 15px;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 15px;
+}
+
+.about-section ul li strong ,.team-member{
+    color: #20232a;
+}
+
+.team-section h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #61dafb;   
+}
+.team-section img{
+padding: 50px center;
+}
+
+footer {
+    background-color: #20232a;
+    color:#f6f6f6;
+    padding: 20px 0;
+    text-align: center;
+}
+.img-logo {
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+    width: 255px; 
+    height: 107px; 
+}
+
+button{
+    background-color: #5fd063;
+    color: white;
+    font-size: large;
+}
+
+button:hover{
+    background-color: #5e7f5e;
+    color: white;
+}
+
+
+footer p {
+    font-size: 0.9rem;
+    color: #f6f6f6;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1d1d1d;
+    color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #61dafb;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

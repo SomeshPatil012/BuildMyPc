@@ -1,0 +1,165 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+li{
+    font-size:large;
+}
+.processor-table ab{
+    font-size: x-large;
+}
+
+.processor-table{
+    background-image: url(https://www.pcworld.com/wp-content/uploads/2023/04/pc-cases-cooling-versus.jpg?quality=50&strip=all&w=1024);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #61dafb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px 0;
+    background-color: #1d1d1d;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 19px;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: auto;
+}
+
+table{
+    text-align: center;
+    font-size: large;
+    table-layout: auto;
+    margin: auto;
+    width: 1406px;
+    background-color:rgba(105, 105, 105, 0.81);
+    
+}
+table tr,td{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.processor-table ab, h1{
+    padding-left: 15px;
+}
+.processor-table a:hover {
+    background-color: rgb(77, 173, 80);
+    color: #ffffff; /* Change the text color after hover */
+}
+table img{
+    width: 250px;
+    height: 250px;
+}
+footer {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.img-logo {
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+    width: 280px; 
+    height: 107px; 
+}
+
+button{
+    background-color: #5fd063;
+    color: white;
+    font-size: large;
+}
+
+button:hover{
+    background-color: #5e7f5e;
+    color: white;
+}
+
+.img-logo {
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+    width: 280px; 
+    height: 107px; 
+}
+
+button{
+    background-color: #5fd063;
+    color: white;
+    font-size: large;
+}
+
+button:hover{
+    background-color: #5e7f5e;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1d1d1d;
+    color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #61dafb;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
